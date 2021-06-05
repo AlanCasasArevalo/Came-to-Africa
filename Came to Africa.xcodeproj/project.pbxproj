@@ -48,6 +48,7 @@
 		51AF399D266BD36A00DBDD05 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF399C266BD36A00DBDD05 /* LocationModel.swift */; };
 		51E08387266BDB6B00C3DBF0 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */; };
 		51E0838A266BDF4700C3DBF0 /* MapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */; };
+		51E0838D266BE37200C3DBF0 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E0838C266BE37200C3DBF0 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		51AF399C266BD36A00DBDD05 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOverlayView.swift; sourceTree = "<group>"; };
+		51E0838C266BE37200C3DBF0 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */,
 				51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */,
 				513C3897266AAA34009FC60F /* CoverImageView.swift */,
+				51E0838C266BE37200C3DBF0 /* MotionAnimationView.swift */,
 				513C8712266B539C00E53D35 /* AnimalListRowView.swift */,
 				51039D28266B7E5C0052C066 /* ExternalWeblinkView.swift */,
 				513C8726266B608F00E53D35 /* AnimalDetailView.swift */,
@@ -342,6 +345,7 @@
 				513C8713266B539C00E53D35 /* AnimalListRowView.swift in Sources */,
 				513C872B266B689C00E53D35 /* HeadingView.swift in Sources */,
 				510D6434266BABFF00D90170 /* VideoPlayerHelper.swift in Sources */,
+				51E0838D266BE37200C3DBF0 /* MotionAnimationView.swift in Sources */,
 				510D6430266BAB8000D90170 /* VideoPlayerView.swift in Sources */,
 				51E0838A266BDF4700C3DBF0 /* MapOverlayView.swift in Sources */,
 			);
