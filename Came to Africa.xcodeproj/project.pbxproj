@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51039D26266B7D770052C066 /* Preview+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51039D25266B7D770052C066 /* Preview+Extension.swift */; };
 		51039D29266B7E5C0052C066 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51039D28266B7E5C0052C066 /* ExternalWeblinkView.swift */; };
 		510D6430266BAB8000D90170 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D642F266BAB8000D90170 /* VideoPlayerView.swift */; };
 		510D6434266BABFF00D90170 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D6433266BABFF00D90170 /* VideoPlayerHelper.swift */; };
@@ -45,10 +44,11 @@
 		51416540266B781400DB88DE /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5141653F266B781400DB88DE /* InsetMapView.swift */; };
 		5172A421266B857A00881964 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172A420266B857A00881964 /* VideoModel.swift */; };
 		5172A425266B881700881964 /* VideoListIdemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172A424266B881700881964 /* VideoListIdemView.swift */; };
+		51AF3999266BD31200DBDD05 /* GlobalHelperExamplesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF3998266BD31200DBDD05 /* GlobalHelperExamplesModel.swift */; };
+		51AF399D266BD36A00DBDD05 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF399C266BD36A00DBDD05 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		51039D25266B7D770052C066 /* Preview+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview+Extension.swift"; sourceTree = "<group>"; };
 		51039D28266B7E5C0052C066 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 		510D642F266BAB8000D90170 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		510D6433266BABFF00D90170 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
@@ -88,6 +88,8 @@
 		5141653F266B781400DB88DE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		5172A420266B857A00881964 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		5172A424266B881700881964 /* VideoListIdemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListIdemView.swift; sourceTree = "<group>"; };
+		51AF3998266BD31200DBDD05 /* GlobalHelperExamplesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelperExamplesModel.swift; sourceTree = "<group>"; };
+		51AF399C266BD36A00DBDD05 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				510D6433266BABFF00D90170 /* VideoPlayerHelper.swift */,
+				51AF3998266BD31200DBDD05 /* GlobalHelperExamplesModel.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			children = (
 				513C389C266AAB7C009FC60F /* CoverImage.swift */,
 				513C8715266B560A00E53D35 /* Animal.swift */,
+				51AF399C266BD36A00DBDD05 /* LocationModel.swift */,
 				5172A420266B857A00881964 /* VideoModel.swift */,
 			);
 			path = Model;
@@ -222,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				513C38A1266AABFC009FC60F /* CodableBundle+Extension.swift */,
-				51039D25266B7D770052C066 /* Preview+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,10 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51039D26266B7D770052C066 /* Preview+Extension.swift in Sources */,
 				513C8716266B560A00E53D35 /* Animal.swift in Sources */,
 				511416F8266AA6CA006B67E2 /* VideoListView.swift in Sources */,
 				513C38A2266AABFC009FC60F /* CodableBundle+Extension.swift in Sources */,
+				51AF399D266BD36A00DBDD05 /* LocationModel.swift in Sources */,
+				51AF3999266BD31200DBDD05 /* GlobalHelperExamplesModel.swift in Sources */,
 				5141653D266B72C600DB88DE /* InsetFactView.swift in Sources */,
 				511416FB266AA6D8006B67E2 /* MapView.swift in Sources */,
 				513C3898266AAA34009FC60F /* CoverImageView.swift in Sources */,
