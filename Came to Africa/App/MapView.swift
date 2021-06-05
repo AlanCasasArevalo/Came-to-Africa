@@ -15,12 +15,15 @@ struct MapView: View {
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: locations) { item in
             MapAnnotation(coordinate: item.location) {
-                Image("logo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 32, height: 32, alignment: .center)
+                MapAnnotationView(location: item)
             }
-        }
+        }// Map
+        .overlay(
+            MapOverlayView(latitude: region.center.latitude, longitude: region.center.longitude)
+                .padding()
+            , alignment: .top            
+        )// Overlay
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
