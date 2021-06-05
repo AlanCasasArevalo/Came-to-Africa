@@ -21,10 +21,8 @@ struct InsetGalleryView: View {
 }
 
 struct InsetGalleryView_Previews: PreviewProvider {
-    static let animals: [Animal]! = Bundle.main.decode(file: "animals.json")
-
     static var previews: some View {
-        InsetGalleryView(animal: animals[0])
+        InsetGalleryView(animal: getAnimals()[0])
             .previewLayout(.sizeThatFits)
             .padding()
     }

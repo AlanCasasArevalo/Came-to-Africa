@@ -35,10 +35,8 @@ struct InsetMapView: View {
 }
 
 struct InsetMapView_Previews: PreviewProvider {
-    static let animals: [Animal]! = Bundle.main.decode(file: "animals.json")
-    
     static var previews: some View {
-        InsetMapView(animal: animals[0])
+        InsetMapView(animal: getAnimals()[0])
             .previewLayout(.sizeThatFits)
             .padding()
     }

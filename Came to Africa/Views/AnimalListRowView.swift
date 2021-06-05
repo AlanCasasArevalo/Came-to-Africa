@@ -30,9 +30,8 @@ struct AnimalListRowView: View {
 }
 
 struct AnimalListRowView_Previews: PreviewProvider {
-    static let animals: [Animal]! = Bundle.main.decode(file: "animals.json")
     static var previews: some View {
-        AnimalListRowView(animal: animals[2])
+        AnimalListRowView(animal: getAnimals()[2])
             .previewLayout(.sizeThatFits)
             .padding()
     }
