@@ -9,9 +9,13 @@ struct VideoListView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(videos, id: \.id) { item in
-                    VideoListIdemView(video: item)
-                        .padding(.vertical, 8)
+                ForEach(videos, id: \.id) { item in                    
+                    NavigationLink(
+                        destination: VideoPlayerView(videoSelected: item.id, videoTile: item.name),
+                        label: {
+                            VideoListIdemView(video: item)
+                                .padding(.vertical, 8)
+                        })
                 } // Foreach
             }// List
             .listStyle(InsetGroupedListStyle())
