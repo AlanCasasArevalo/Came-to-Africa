@@ -7,12 +7,12 @@ struct AnimalDetailView: View {
     var body: some View {
         
         ScrollView (.vertical, showsIndicators: false) {
-            VStack {
+            VStack (alignment: .center, spacing: 20) {
                 
                 // HERO Image
                 Image(animal.image)
                     .resizable()
-                    .scaledToFill()
+                    .scaledToFit()
 
                 // Title
                 Text(animal.name.uppercased())
@@ -38,7 +38,13 @@ struct AnimalDetailView: View {
                 .padding(.horizontal)
 
                 // Facts
-                
+                Group {
+                    HeadingView(headingTitle: "Did you know?", headingIcon: "questionmark.circle")
+                    
+                    InsetFactView(animal: animal)
+                }
+                .padding(.horizontal)
+
                 // Description
                 
                 // Map
