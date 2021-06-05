@@ -119,8 +119,6 @@
 		511416B3266AA186006B67E2 = {
 			isa = PBXGroup;
 			children = (
-				51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */,
-				51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */,
 				511416BE266AA187006B67E2 /* Came to Africa */,
 				511416BD266AA187006B67E2 /* Products */,
 			);
@@ -204,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				5172A424266B881700881964 /* VideoListIdemView.swift */,
+				51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */,
+				51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */,
 				513C3897266AAA34009FC60F /* CoverImageView.swift */,
 				513C8712266B539C00E53D35 /* AnimalListRowView.swift */,
 				51039D28266B7E5C0052C066 /* ExternalWeblinkView.swift */,
