@@ -3,7 +3,8 @@ import SwiftUI
 struct CoverImageView: View {
     
     // MARK: - Properties
-    let coverImages = Bundle.main.decode(file: "covers.json")
+    
+    let coverImages: [CoverImage]? = Bundle.main.decode(file: "covers.json")
 
     // MARK: - Body
     var body: some View {

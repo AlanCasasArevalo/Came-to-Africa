@@ -23,7 +23,6 @@
 		511416E3266AA3F5006B67E2 /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 511416D9266AA3F4006B67E2 /* cheetah.mp4 */; };
 		511416EA266AA437006B67E2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 511416E6266AA437006B67E2 /* locations.json */; };
 		511416EB266AA437006B67E2 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 511416E7266AA437006B67E2 /* covers.json */; };
-		511416EC266AA437006B67E2 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 511416E8266AA437006B67E2 /* animals.json */; };
 		511416ED266AA437006B67E2 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 511416E9266AA437006B67E2 /* videos.json */; };
 		511416F1266AA6B1006B67E2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511416F0266AA6B1006B67E2 /* MainView.swift */; };
 		511416F5266AA6BD006B67E2 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511416F4266AA6BD006B67E2 /* GalleryView.swift */; };
@@ -34,6 +33,7 @@
 		513C38A2266AABFC009FC60F /* CodableBundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C38A1266AABFC009FC60F /* CodableBundle+Extension.swift */; };
 		513C8713266B539C00E53D35 /* AnimalListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C8712266B539C00E53D35 /* AnimalListRowView.swift */; };
 		513C8716266B560A00E53D35 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C8715266B560A00E53D35 /* Animal.swift */; };
+		513C871E266B5A2500E53D35 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 513C871D266B5A2500E53D35 /* animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +55,6 @@
 		511416D9266AA3F4006B67E2 /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 		511416E6266AA437006B67E2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		511416E7266AA437006B67E2 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
-		511416E8266AA437006B67E2 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		511416E9266AA437006B67E2 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		511416F0266AA6B1006B67E2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		511416F4266AA6BD006B67E2 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		513C38A1266AABFC009FC60F /* CodableBundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodableBundle+Extension.swift"; sourceTree = "<group>"; };
 		513C8712266B539C00E53D35 /* AnimalListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListRowView.swift; sourceTree = "<group>"; };
 		513C8715266B560A00E53D35 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		513C871D266B5A2500E53D35 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 		511416E5266AA41F006B67E2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				511416E8266AA437006B67E2 /* animals.json */,
+				513C871D266B5A2500E53D35 /* animals.json */,
 				511416E7266AA437006B67E2 /* covers.json */,
 				511416E6266AA437006B67E2 /* locations.json */,
 				511416E9266AA437006B67E2 /* videos.json */,
@@ -243,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511416EC266AA437006B67E2 /* animals.json in Resources */,
 				511416EA266AA437006B67E2 /* locations.json in Resources */,
 				511416E1266AA3F5006B67E2 /* hippo.mp4 in Resources */,
 				511416DF266AA3F5006B67E2 /* rhino.mp4 in Resources */,
@@ -253,6 +252,7 @@
 				511416DE266AA3F5006B67E2 /* gorilla.mp4 in Resources */,
 				511416EB266AA437006B67E2 /* covers.json in Resources */,
 				511416E2266AA3F5006B67E2 /* giraffe.mp4 in Resources */,
+				513C871E266B5A2500E53D35 /* animals.json in Resources */,
 				511416DC266AA3F5006B67E2 /* elephant.mp4 in Resources */,
 				511416E3266AA3F5006B67E2 /* cheetah.mp4 in Resources */,
 				511416DD266AA3F5006B67E2 /* zebra.mp4 in Resources */,
