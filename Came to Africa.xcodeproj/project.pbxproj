@@ -14,6 +14,8 @@
 		5112A5B2266CD4530017A5C3 /* GridColum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5B1266CD4530017A5C3 /* GridColum.swift */; };
 		5112A5B9266CD54C0017A5C3 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5112A5B8266CD54C0017A5C3 /* Stickers.xcassets */; };
 		5112A5BD266CD54C0017A5C3 /* Stikers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5112A5B6266CD54A0017A5C3 /* Stikers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5112A5C7266CD75F0017A5C3 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5C6266CD75F0017A5C3 /* CreditsView.swift */; };
+		5112A5CC266CD93E0017A5C3 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5CB266CD93E0017A5C3 /* CenterModifier.swift */; };
 		511416C0266AA187006B67E2 /* Came_to_AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511416BF266AA187006B67E2 /* Came_to_AfricaApp.swift */; };
 		511416C2266AA187006B67E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511416C1266AA187006B67E2 /* ContentView.swift */; };
 		511416C4266AA18A006B67E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511416C3266AA18A006B67E2 /* Assets.xcassets */; };
@@ -89,6 +91,8 @@
 		5112A5B6266CD54A0017A5C3 /* Stikers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stikers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5112A5B8266CD54C0017A5C3 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		5112A5BA266CD54C0017A5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5112A5C6266CD75F0017A5C3 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		5112A5CB266CD93E0017A5C3 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		511416BC266AA187006B67E2 /* Came to Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Came to Africa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		511416BF266AA187006B67E2 /* Came_to_AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Came_to_AfricaApp.swift; sourceTree = "<group>"; };
 		511416C1266AA187006B67E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +166,14 @@
 			path = Stikers;
 			sourceTree = "<group>";
 		};
+		5112A5CA266CD9310017A5C3 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5112A5CB266CD93E0017A5C3 /* CenterModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		511416B3266AA186006B67E2 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 		511416BE266AA187006B67E2 /* Came to Africa */ = {
 			isa = PBXGroup;
 			children = (
+				5112A5CA266CD9310017A5C3 /* Modifiers */,
 				510D6432266BABB100D90170 /* Helpers */,
 				513C38A0266AABE5009FC60F /* Extensions */,
 				513C389B266AAB6F009FC60F /* Model */,
@@ -251,6 +264,7 @@
 			children = (
 				519ABBD3266CBC64003988F2 /* GalleryItemView.swift */,
 				5172A424266B881700881964 /* VideoListIdemView.swift */,
+				5112A5C6266CD75F0017A5C3 /* CreditsView.swift */,
 				51E08389266BDF4700C3DBF0 /* MapOverlayView.swift */,
 				51E08386266BDB6B00C3DBF0 /* MapAnnotationView.swift */,
 				513C3897266AAA34009FC60F /* CoverImageView.swift */,
@@ -403,6 +417,7 @@
 				513C8716266B560A00E53D35 /* Animal.swift in Sources */,
 				5112A5B2266CD4530017A5C3 /* GridColum.swift in Sources */,
 				511416F8266AA6CA006B67E2 /* VideoListView.swift in Sources */,
+				5112A5C7266CD75F0017A5C3 /* CreditsView.swift in Sources */,
 				513C38A2266AABFC009FC60F /* CodableBundle+Extension.swift in Sources */,
 				51AF399D266BD36A00DBDD05 /* LocationModel.swift in Sources */,
 				51AF3999266BD31200DBDD05 /* GlobalHelperExamplesModel.swift in Sources */,
@@ -411,6 +426,7 @@
 				511416FB266AA6D8006B67E2 /* MapView.swift in Sources */,
 				513C3898266AAA34009FC60F /* CoverImageView.swift in Sources */,
 				513C8727266B608F00E53D35 /* AnimalDetailView.swift in Sources */,
+				5112A5CC266CD93E0017A5C3 /* CenterModifier.swift in Sources */,
 				51039D29266B7E5C0052C066 /* ExternalWeblinkView.swift in Sources */,
 				511416C2266AA187006B67E2 /* ContentView.swift in Sources */,
 				519ABBD4266CBC64003988F2 /* GalleryItemView.swift in Sources */,

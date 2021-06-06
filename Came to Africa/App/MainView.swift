@@ -33,6 +33,8 @@ struct MainView: View {
                                     })
                             }
                         }
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
