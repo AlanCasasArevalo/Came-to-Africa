@@ -11,12 +11,13 @@ enum GridColum: Int {
     
     func getIcon () -> String {
         switch self {
-        case .one:
-            return "square.grid.2x2"
-        case .two:
+        case .one:            
             return "square.grid.3x2"
+        case .two:
+            return "rectangle.grid.1x2"            
         case .three:
-            return "rectangle.grid.1x2"
+            return "square.grid.2x2"
+            
         }
     }
 }
