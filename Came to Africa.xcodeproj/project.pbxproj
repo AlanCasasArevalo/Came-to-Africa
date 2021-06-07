@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		5112A5AF266CCC9C0017A5C3 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5AE266CCC9C0017A5C3 /* AnimalGridItemView.swift */; };
 		5112A5B2266CD4530017A5C3 /* GridColum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5B1266CD4530017A5C3 /* GridColum.swift */; };
 		5112A5B9266CD54C0017A5C3 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5112A5B8266CD54C0017A5C3 /* Stickers.xcassets */; };
-		5112A5BD266CD54C0017A5C3 /* Stikers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5112A5B6266CD54A0017A5C3 /* Stikers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5112A5BD266CD54C0017A5C3 /* Stikers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5112A5B6266CD54A0017A5C3 /* Stikers.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5112A5C7266CD75F0017A5C3 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5C6266CD75F0017A5C3 /* CreditsView.swift */; };
 		5112A5CC266CD93E0017A5C3 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A5CB266CD93E0017A5C3 /* CenterModifier.swift */; };
 		511416C0266AA187006B67E2 /* Came_to_AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511416BF266AA187006B67E2 /* Came_to_AfricaApp.swift */; };
@@ -129,6 +129,7 @@
 		5141653F266B781400DB88DE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		5172A420266B857A00881964 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		5172A424266B881700881964 /* VideoListIdemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListIdemView.swift; sourceTree = "<group>"; };
+		5172AD1B266D8B2600CACD47 /* Came to Africa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Came to Africa.entitlements"; sourceTree = "<group>"; };
 		519ABBD3266CBC64003988F2 /* GalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemView.swift; sourceTree = "<group>"; };
 		51AF3998266BD31200DBDD05 /* GlobalHelperExamplesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelperExamplesModel.swift; sourceTree = "<group>"; };
 		51AF399C266BD36A00DBDD05 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 		511416BE266AA187006B67E2 /* Came to Africa */ = {
 			isa = PBXGroup;
 			children = (
+				5172AD1B266D8B2600CACD47 /* Came to Africa.entitlements */,
 				5112A5CA266CD9310017A5C3 /* Modifiers */,
 				510D6432266BABB100D90170 /* Helpers */,
 				513C38A0266AABE5009FC60F /* Extensions */,
@@ -346,7 +348,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					5112A5B5266CD54A0017A5C3 = {
 						CreatedOnToolsVersion = 12.4;
@@ -453,6 +455,7 @@
 /* Begin PBXTargetDependency section */
 		5112A5BC266CD54C0017A5C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 5112A5B5266CD54A0017A5C3 /* Stikers */;
 			targetProxy = 5112A5BB266CD54C0017A5C3 /* PBXContainerItemProxy */;
 		};
@@ -466,10 +469,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J2G4846S8;
 				INFOPLIST_FILE = Stikers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alancasasas-gmail.Came-to-Africa.Stikers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,10 +485,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J2G4846S8;
 				INFOPLIST_FILE = Stikers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alancasasas-gmail.Came-to-Africa.Stikers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -610,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Came to Africa/Came to Africa.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Came to Africa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5J2G4846S8;
@@ -622,6 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alancasasas-gmail.Came-to-Africa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -632,6 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Came to Africa/Came to Africa.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Came to Africa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5J2G4846S8;
@@ -644,6 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alancasasas-gmail.Came-to-Africa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
